@@ -13,16 +13,16 @@
 #### Text
 - `.text`
 - `.text.__xl`
-- `.text.__l`
-- `.text.__m`
-- `.text.__s`
+- `.text.__lg`
+- `.text.__md`
+- `.text.__sm`
 - `.text.__xs`
 
 #### Button
 - `.button`
-- `.button.__p //Primary`
-- `.button.__s //Secondary`
-- `.button.__t //Tertiary`
+- `.button.__pri //Primary`
+- `.button.__sec //Secondary`
+- `.button.__ter //Tertiary`
 
 #### Input
 - `.input`

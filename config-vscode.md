@@ -1,0 +1,40 @@
+```json
+{
+    "editor.fontFamily": "D2Coding ligature",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "window.openFilesInNewWindow": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "files.insertFinalNewline": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "html.format.endWithNewline": true,
+    "workbench.useExperimentalGridLayout": true,
+    "editor.find.autoFindInSelection": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.renderIndentGuides": true,
+    "indenticator.showHighlight": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "git.autofetch": true,
+    "html.autoClosingTags": false,
+    "git.confirmSync": false,
+    "emmet.extensionsPath": "",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "editor.fontWeight": "300",
+    "html.format.preserveNewLines": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "editor.renderControlCharacters": true,
+    "workbench.colorTheme": "Nord",
+    "files.exclude": {
+        "**/.zip": true,
+        "**/README.md": true
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.ignoreTrimWhitespace": false
+}
+```

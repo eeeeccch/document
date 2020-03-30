@@ -8,7 +8,7 @@
 - `.h2`
 - `.h3`
 - `.h4`
-- `.subtitle'
+- `.subtitle`
 - `.eg`
 
 #### Element Size
@@ -47,3 +47,7 @@
 - `[dir="ltr"]`
 - `[dir="rtl"]`
 - `[dir="center"]`
+
+#### Table
+- `.table.__line1`
+- `.table.__line2`

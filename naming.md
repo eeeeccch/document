@@ -3,20 +3,34 @@
 - `.element-container`
 
 #### Title
-- `.page-title`
-- `.page-sub`
-- `.page-explain`
-- `.content-title`
-- `.content-sub`
-- `.content-explain`
+- `.headline`
+- `.h1`
+- `.h2`
+- `.h3`
+- `.h4`
+- `.subtitle'
+- `.eg`
+
+#### Element Size
+- `element.__xl`
+- `element.__xg`
+- `element.__md`
+- `element.__sm`
+- `element.__xs`
 
 #### Text
 - `.text`
-- `.text.__xl`
-- `.text.__lg`
-- `.text.__md`
-- `.text.__sm`
-- `.text.__xs`
+- `.text.__pri`
+- `.text.__sec`
+- `.text.__ter`
+- `.text.__sucess`
+- `.text.__fail`
+- `.text.__danger`
+- `.text.__error`
+- `.text.__enable`
+- `.text.__disable`
+- `.text.__up`
+- `.text.__down`
 
 #### Button
 - `.button`

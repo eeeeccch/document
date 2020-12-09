@@ -1,10 +1,11 @@
-# EOL (end of line)
-> Windows에서는 `CRLF` 를 사용하고 Linux, OSX는 `LF` 만 사용한다. 
-> 실제 코드는 변경된 게 없는데 소스의 CR/LF 때문에 변경으로 착각하여 commit을 하게 될 수 있다.
-
-`core.eol = native`(default) 시스템에서 line ending를 처리하는 방법에 따른다.   
-`core.eol = crlf` CRLF 를 line ending 으로 사용한다.  
-`core.eol = lf` LF를 line ending 으로 사용한다.   
+# config 
+`git config --list` git에서 설정한 항목 확인
+`git config --global core.editor "your editor"` 기본 에디터 설정
+`git config --global core.editor "your editor --wait"` 기본 에디터 설정을 저장할때까지 커멘트창을 사용할 수 없음
+`git config --global user.name "your name"`
+`git config --global user.email "your email"`
+`git config --global core.autocrlf $(option)`
+`git config --global core.eol $(option)`
 
 ### core.autocrlf
 `core.autocrlf = false` (default) 시스템이나 저장소의 방법을 따른다.   
@@ -21,3 +22,13 @@ git config --global core.autocrlf true
 ```bash
 git config --global core.autocrlf input
 ```
+
+
+### EOL (end of line)
+> Windows에서는 `CRLF` 를 사용하고 Linux, OSX는 `LF` 만 사용한다. 
+> 실제 코드는 변경된 게 없는데 소스의 CR/LF 때문에 변경으로 착각하여 commit을 하게 될 수 있다.
+
+`core.eol = native`(default) 시스템에서 line ending를 처리하는 방법에 따른다.   
+`core.eol = crlf` CRLF 를 line ending 으로 사용한다.  
+`core.eol = lf` LF를 line ending 으로 사용한다.   
+

@@ -1,3 +1,17 @@
+# apt 주소 변경 (해외 -> 국내)
+```bash
+# apt 저장소 서버 주소를 국내로 변경함으로 쾌적하게 사용할 수 있음
+> sudo vi /etc/apt/sources.list
+
+:%s/archive.ubuntu.com/ftp.daum.net/g
+:%s/security.ubuntu.com/ftp.daum.net/g
+:wq!
+
+# apt 저장소 업데이트
+> sudo apt-get update
+> sudo apt full-upgrade
+```
+
 # install nodejs & npm
 ```bash
 # 방법 1. apt를 활용한 nodejs & npm 설치

@@ -16,6 +16,9 @@ git init <directory>
 ```
 git init --bare <directory>
 ```
+<br>
+<br>
+<br>
 ### git clone
 > 저장소 복제 
 
@@ -29,55 +32,17 @@ git clone <repo> <driectory>
 ```
 
 ### git config
-```
-git config  <name>
-
-```
-
-
-### git add
-```
-git add <file>
-```
-
-```
-git add <directory>
-```
-
-```
-git add -p
-```
-
-### git commit
-```
-git commit
-```
-
-```
-git commit -m "<message>"
-```
-
-```
-git commit -a
-```
-
-
 ### git status
-```
-git status
-```
-
-### git diff
-```
-git diff
-```
-
-```
-git diff --cached
-```
-
-```
-git diff HEAD
-```
-
-### git log
+### git show
+### git add
+### git commit
+### git reset
+### git reflog
+### git branch
+### git checkout
+### git blame
+### git revert
+### git rebase
+### git merge
+### git stash { apply | drop | pop | branch }
+### git cherry-pick

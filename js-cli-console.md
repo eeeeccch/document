@@ -1,19 +1,27 @@
-#### console.log(data)
-|`console.log('hello world')`|
-|:------|
-|![console.log](https://i.imgur.com/vTWBTnZ.png)|
+```javascript
+//level
+console.log('log')      //개발 - 출력
+console.info('info')    // 정보
+console.warn('warn')    // 경보
+console.error('error')  // 에러
 
-#### console.error(data)
-|`console.error('oops!')`|
-|:------|
-|![console.error](https://i.imgur.com/KzLy62x.png)|
+//assert
+console.assert(2=== 3, 'not same!');
+console.assert(2===2, 'same!');
 
-#### console.warn(data)
-|`console.warn('Warning!')`|
-|:------|
-|![console.warn](https://i.imgur.com/ckhxtb1.png)|
+//print
+console.log();
+console.table(obj);
+console.dir(obj,{colors:false, depth:0 });
 
-#### console.table(tabularData)
-|`console.table({ "a" : "foo", "b" : "bar" })`|
-|:------|
-|![console.table](https://i.imgur.com/CMTQkLC.png)|
+//measuring time
+console.time();
+for (let i = 0; i<1000; i++){
+  i++
+}
+console.timeEnd();
+
+//counting
+console.count();
+console.countReset();
+```

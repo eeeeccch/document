@@ -69,3 +69,9 @@ brew install zsh-syntax-highlighting
 # 플러그인 적용
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
 ```
+
+#### DS_Store 생성 방지
+```bash
+# true || false
+sudo defaults write com.apple.desktopservice DSDontWriteNetworkStores true
+```

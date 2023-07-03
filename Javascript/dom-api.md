@@ -1,4 +1,4 @@
-# Get Elements
+# Select Elements
 ```javascript
 NODE.getElementById(id)
 NODE.getElementsByTagName(tag)
@@ -12,7 +12,7 @@ NODE.querySelectorAll(css)
 creatElement(name)
 PARENT.appendChild(node)
 PARENT.removeChild(node)
-PARENT.replaceCHILD(new, old)
+PARENT.replaceChild(new, old)
 PARENT.insertBefore(new, old)
 ```
 
